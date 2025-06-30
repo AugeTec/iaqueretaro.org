@@ -1,0 +1,32 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  image: debian:12
+  variables:
+    DOMAIN_NAME: iaqueretaro.org
+  before_script:
+    - apt-get update && apt-get install -y rsync openssh-client wget
+    - export RSA_KEY=$HOME/.ssh/id_rsa
+    - mkdir -p $HOME/.ssh
+    - echo "$SSH_PRIVATE_KEY" > $RSA_KEY
+    - chmod 600 $RSA_KEY
+    - ssh-keyscan -H $DEPLOY_SERVER >> $HOME/.ssh/known_hosts
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.147.9/hugo_extended_0.147.9_linux-amd64.deb
+    - apt install -y ./hugo_extended_0.147.9_linux-amd64.deb
+  script:
+    # generate site
+    - hugo --gc --minify
+    # deploy
+    - bash -c "
+      set -x;
+      chmod 600 $RSA_KEY;
+      rsync -e \"ssh -i $RSA_KEY -o StrictHostKeyChecking=no\" --delete -av public/* root@$DEPLOY_SERVER:/var/www/$DOMAIN_NAME;
+      rsync -e \"ssh -i $RSA_KEY -o StrictHostKeyChecking=no\" --delete -av deploy/nginx.conf root@$DEPLOY_SERVER:/etc/nginx/sites-enabled/$DOMAIN_NAME;
+      rsync -e \"ssh -i $RSA_KEY -o StrictHostKeyChecking=no\" --delete -av deploy/backend/* root@$DEPLOY_SERVER:/srv/forms-service/domains/$DOMAIN_NAME;
+      ssh -i $RSA_KEY -o StrictHostKeyChecking=no $DEPLOY_SERVER systemctl restart nginx;
+      "
+  only:
+    - main
+
