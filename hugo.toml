@@ -1,0 +1,4 @@
+baseURL = 'https://iaqueretaro.org/'
+languageCode = 'es-ES'
+title = 'IA Querétaro'
+theme = 'hugo-brewm'
