@@ -1,0 +1,13 @@
+disabled = false
+languageCode = "es"
+languageName = "Spanish"
+weight = 1
+title = "IA Querétaro"
+
+[params]
+displayName = "ES"
+isoCode = "es"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "logo.png"
+description = "Comunidad de Inteligencia Artificial en Querétaro"
