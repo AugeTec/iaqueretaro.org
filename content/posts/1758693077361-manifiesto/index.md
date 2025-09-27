@@ -3,7 +3,7 @@ title: "Manifiesto"
 date: 2025-09-24
 draft: false
 description: "a description"
-tags: ["organización", "tag"]
+tags: ["organización"]
 ---
 
 Querétaro, 2025
