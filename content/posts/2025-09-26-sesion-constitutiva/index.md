@@ -6,8 +6,6 @@ description: "Sesión constitutiva de la comunidad"
 tags: ["organización"]
 ---
 
-# Sesión constitutiva de Inteligencia Artificial Querétaro
-
 El 26 de septiembre de 2025 se llevó a cabo la primera sesión oficial de la comunidad Inteligencia Artificial Querétaro. Esta reunión marcó el inicio formal de nuestras actividades para impulsar la adopción y desarrollo de la IA en el estado de Querétaro y en México.
 
 Asistentes  
