@@ -3,8 +3,6 @@ title: "Laboratorio de Inteligencia Artificial Querétaro"
 description: "Inteligencia Artificial Querétaro"
 ---
 
-## Sobre el Laboratorio de IA Querétaro
-
 El Laboratorio de IA Querétaro, impulsado por la comunidad Inteligencia Artificial Querétaro, es un espacio para desarrollar y probar ideas innovadoras en inteligencia artificial. Ofrecemos acceso a recursos, herramientas y conocimientos para fomentar proyectos de IA.
 
 ## Participación
