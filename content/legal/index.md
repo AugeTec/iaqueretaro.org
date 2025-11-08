@@ -9,7 +9,7 @@ tags: ["organización"]
 
 El uso de este sitio web o cualquiera de sus servicios, le otorga al visitante la característica de USUARIO, así el uso queda bajo su exclusiva y estricta responsabilidad, por lo que esta organización no será en ningún momento y bajo ninguna circunstancia, responsable por cualquier desperfecto o problema que se presentara en el equipo de cómputo (hardware) o programas de cómputo (software) que utilice el Usuario para acceder o navegar en cualquier parte del sitio.
 
-En el caso de que cualquier Usuario considere que cualquiera de los Contenidos del Sitio violan sus derechos de propiedad intelectual deberá contactarnos por medio de correo electrónico (correo de contacto) y su correo deberá contener lo siguiente:
+En el caso de que cualquier Usuario considere que cualquiera de los Contenidos del Sitio violan sus derechos de propiedad intelectual deberá contactarnos por medio de correo electrónico (contacto@iaqueretaro.org) y su correo deberá contener lo siguiente:
 
 1. Datos personales.
 
@@ -35,7 +35,7 @@ Mismos que han sido proporcionados para contactarle inicialmente, además estos 
 
 IAQUERETARO.ORG tiene implementadas medidas de seguridad administrativas, técnicas y físicas para proteger sus datos personales, mismas que igualmente exigimos sean cumplidas por los miembros de nuestro equipos. Usted tiene derecho de acceder, rectificar y cancelar sus datos personales, así como de oponerse al tratamiento de los mismos o revocar el consentimiento que para tal fin nos haya otorgado, a través de los procedimientos que hemos implementado, esto en cualquier momento.
 
-Para conocer dichos procedimientos, los requisitos y plazos, se puede poner en contacto con nuestro departamento de datos personales través de nuestro correo electrónico (CORREO DE CONTACTO) con atención a Dirección teléfono (TELÉFONO O WHATSAPP DE CONTACTO), o bien de la siguiente manera: Enviando una solicitud vía correo electrónico que deberá contener por lo menos:
+Para conocer dichos procedimientos, los requisitos y plazos, se puede poner en contacto con nuestro departamento de datos personales través de nuestro correo electrónico (contacto@iaqueretaro.org) con atención a Dirección teléfono (TELÉFONO O WHATSAPP DE CONTACTO), o bien de la siguiente manera: Enviando una solicitud vía correo electrónico que deberá contener por lo menos:
 
 (a) nombre y domicilio u otro medio para comunicarle la respuesta a su solicitud;
 
